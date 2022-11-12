@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Calculadora de custos do ônibus CN - CAICÓ</title>
+</head>
+
+<body>
+    <header>
+        <h1>Valores do transporte CN - CAICÓ</h1>
+        <nav>
+            <a class="nav-link index" href="./index.html">Calculadora</a>
+            <a class="nav-link info" href="">Saiba mais</a>
+        </nav>
+    </header>
+
+
+    <!-- === CAPTURANDO AS INFORMAÇÕES ===-->
+    <main>
+        <article>
+            <label for="passage">Quantidade de passagens</label>
+            <input type="number" name="Passage" id="passage" placeholder="Ex.: 100">
+        </article>
+        <article>
+            <label for="price-day">Valor diário do transporte</label>
+            <input type="number" name="Price-Day" id="price-day" placeholder="Ex.: 400">
+        </article>
+        <article>
+            <label for="travel">Quantidade de viagens</label>
+            <input type="number" name="Travel" id="travel" placeholder="Ex.: 20">
+        </article>
+        <button onclick="calcular()">Calcular valor unitário</button>
+    </main>
+
+    <section id="view-results">
+
+        
+    </section>
+
+
+    <footer>
+        <section class="footer-contacts">
+            <a href="" class="contact">
+                <img src="./assets/SVG/wpp.svg" alt="">
+            </a>
+            <a href="" class="contact">
+                <img src="./assets/SVG/ig.svg" alt="">
+            </a>
+            <a href="" class="contact">
+                <img src="./assets/SVG/linkedin.svg" alt="">
+            </a>
+            <a href="" class="contact">
+                <img src="./assets/SVG/github.svg" alt="">
+            </a>
+            <a href="" class="contact">
+                <img src="./assets/SVG/behance.svg" alt="">
+            </a>
+            <a href="" class="contact">
+                <img src="./assets/SVG/gmail.svg" alt="">
+            </a>
+        </section>
+        <p>
+            Desenvolvido por <a href="" class="email">Marcos Alcântara</a>. 2022.
+        </p>
+    </footer>
+    <script src="./script/script.js"></script>
+</body>
+
+</html>
